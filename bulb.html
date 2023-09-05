@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<H1 style="color: rgb(4, 5, 5);">CLICK THE BUTTON </H1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLICK THE BUTTON</title>
+    <style>
+        body{ 
+            background-color: white;
+           background-attachment: fixed;
+           background-repeat: no-repeat;
+           background-size: 100% 100%;
+           margin-top: 200px;
+           margin-left: 500px;
+        }
+        button{
+            background-color: rgb(42, 250, 0);
+            width: 35px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="bulbon()">on</button>
+    <img src="asset/bulb1.jfif" alt="on" id="bulb">
+    <button onclick="bulboff()">off</button>
+    
+    <script>
+        function bulbon(){
+            document.getElementById('bulb').src="asset/bulb1.jfif"
+        }
+        function bulboff(){
+            document.getElementById('bulb').src="asset/bulb 2.jfif"
+            
+        }
+    </script>
+    </script>
+</body>
+</html>
